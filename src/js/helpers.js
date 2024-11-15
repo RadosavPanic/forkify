@@ -20,3 +20,9 @@ export const getJSON = async function (url) {
     throw err;
   }
 };
+
+export const PAGINATION_ACTION_TYPES = {
+  FIRST_PAGE: "FIRST_PAGE",
+  LAST_PAGE: "LAST_PAGE",
+  OTHER_PAGE: "OTHER_PAGE",
+};

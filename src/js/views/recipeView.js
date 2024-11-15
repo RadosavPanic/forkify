@@ -3,7 +3,7 @@ import View from "./View.js";
 import icons from "url:../../img/icons.svg";
 import fracty from "fracty";
 
-class recipeView extends View {
+class RecipeView extends View {
   _parentElement = document.querySelector(".recipe");
 
   _errorMessage = "We could not find that recipe. Please try another one!";
@@ -122,4 +122,4 @@ class recipeView extends View {
   }
 }
 
-export default new recipeView();
+export default new RecipeView();
